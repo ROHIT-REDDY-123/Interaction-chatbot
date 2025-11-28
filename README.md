@@ -13,11 +13,8 @@ A simple Generative AI chat application built with LangChain, Google Gemini (2.5
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
