@@ -10,6 +10,7 @@ from langchain.schema import SystemMessage, HumanMessage
 load_dotenv()
 
 # NOTE: prefer using env var rather than hardcoding.
+# GOOGLE_API_KEY = "AIzaSyBnq66jPQXgdc8YGQ6nE5JqxQI7C0GZS-U"
 API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
     st.warning("GOOGLE_API_KEY not found in environment. Please add to a .env file or export it.")
@@ -77,5 +78,6 @@ if submit:
                 st.error(f"Model call failed: {e}")
                 # Optional: show repr for debugging
                 st.write(repr(e))
+
 
 
